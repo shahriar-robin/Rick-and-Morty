@@ -19,6 +19,13 @@
 		F81112F82963E09800546CA1 /* RMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81112F72963E09800546CA1 /* RMLocationViewController.swift */; };
 		F81112FA2963E0AF00546CA1 /* RMEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81112F92963E0AF00546CA1 /* RMEpisodeViewController.swift */; };
 		F81112FC2963E0C000546CA1 /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81112FB2963E0C000546CA1 /* RMSettingsViewController.swift */; };
+		F8F2D8EA296448CE00F97D2B /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2D8E9296448CE00F97D2B /* RMService.swift */; };
+		F8F2D8EC296448EF00F97D2B /* RMReques.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2D8EB296448EF00F97D2B /* RMReques.swift */; };
+		F8F2D8EE2964492700F97D2B /* RMEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2D8ED2964492700F97D2B /* RMEndpoints.swift */; };
+		F8F2D8F02964496500F97D2B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2D8EF2964496500F97D2B /* UIView+Extension.swift */; };
+		F8F2D8F22964498700F97D2B /* RMCustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2D8F12964498700F97D2B /* RMCustomAlert.swift */; };
+		F8F2D8F5296449C300F97D2B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2D8F4296449C300F97D2B /* NetworkManager.swift */; };
+		F8F2D8F8296449E800F97D2B /* RMCharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F2D8F7296449E800F97D2B /* RMCharacterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +43,13 @@
 		F81112F72963E09800546CA1 /* RMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewController.swift; sourceTree = "<group>"; };
 		F81112F92963E0AF00546CA1 /* RMEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeViewController.swift; sourceTree = "<group>"; };
 		F81112FB2963E0C000546CA1 /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
+		F8F2D8E9296448CE00F97D2B /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
+		F8F2D8EB296448EF00F97D2B /* RMReques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMReques.swift; sourceTree = "<group>"; };
+		F8F2D8ED2964492700F97D2B /* RMEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoints.swift; sourceTree = "<group>"; };
+		F8F2D8EF2964496500F97D2B /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		F8F2D8F12964498700F97D2B /* RMCustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCustomAlert.swift; sourceTree = "<group>"; };
+		F8F2D8F4296449C300F97D2B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F8F2D8F7296449E800F97D2B /* RMCharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +98,7 @@
 		F81112E62963DCCF00546CA1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F8F2D8EF2964496500F97D2B /* UIView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -99,6 +114,7 @@
 		F81112E82963DCF800546CA1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F8F2D8F7296449E800F97D2B /* RMCharacterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -106,6 +122,7 @@
 		F81112E92963DD2600546CA1 /* VIews */ = {
 			isa = PBXGroup;
 			children = (
+				F8F2D8F12964498700F97D2B /* RMCustomAlert.swift */,
 			);
 			path = VIews;
 			sourceTree = "<group>";
@@ -123,6 +140,9 @@
 		F81112EB2963DD5000546CA1 /* APIClients */ = {
 			isa = PBXGroup;
 			children = (
+				F8F2D8E9296448CE00F97D2B /* RMService.swift */,
+				F8F2D8EB296448EF00F97D2B /* RMReques.swift */,
+				F8F2D8ED2964492700F97D2B /* RMEndpoints.swift */,
 			);
 			path = APIClients;
 			sourceTree = "<group>";
@@ -130,6 +150,7 @@
 		F81112EC2963DD5800546CA1 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				F8F2D8F4296449C300F97D2B /* NetworkManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -227,16 +248,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F2D8F22964498700F97D2B /* RMCustomAlert.swift in Sources */,
+				F8F2D8EE2964492700F97D2B /* RMEndpoints.swift in Sources */,
 				F81112F82963E09800546CA1 /* RMLocationViewController.swift in Sources */,
 				F81112F42963DFBB00546CA1 /* RMEpisode.swift in Sources */,
+				F8F2D8F5296449C300F97D2B /* NetworkManager.swift in Sources */,
 				F81112D72963DC9F00546CA1 /* RMTabBarController.swift in Sources */,
 				F81112FA2963E0AF00546CA1 /* RMEpisodeViewController.swift in Sources */,
 				F81112D32963DC9E00546CA1 /* AppDelegate.swift in Sources */,
 				F81112D52963DC9F00546CA1 /* SceneDelegate.swift in Sources */,
 				F81112FC2963E0C000546CA1 /* RMSettingsViewController.swift in Sources */,
+				F8F2D8F02964496500F97D2B /* UIView+Extension.swift in Sources */,
+				F8F2D8EA296448CE00F97D2B /* RMService.swift in Sources */,
 				F81112F02963DF7600546CA1 /* RMLocation.swift in Sources */,
+				F8F2D8EC296448EF00F97D2B /* RMReques.swift in Sources */,
 				F81112F22963DFA500546CA1 /* RMCharacter.swift in Sources */,
 				F81112F62963E08300546CA1 /* RMCharacterViewController.swift in Sources */,
+				F8F2D8F8296449E800F97D2B /* RMCharacterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
